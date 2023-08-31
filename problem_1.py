@@ -55,7 +55,7 @@ Aluno aprovado.
 =-=-=-=-=-=-=-=-=-=
 
 """
-from library_problem_1 import media def media():
+from library_problem_1 import media 
 
     n1 = float(input("Digite a nota 1: "))
     n2 = float(input("Digite a nota 2: "))
@@ -63,7 +63,6 @@ from library_problem_1 import media def media():
     n4 = float(input("Digite a nota 4: "))
 
 
-    media = (n1 * 2 + n2 * 3 + n3 * 4 + n4 * 1) / 10
 
     
     if media >= 7.0:
