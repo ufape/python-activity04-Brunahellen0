@@ -79,10 +79,10 @@ def main():
         print("Aluno em exame.")
         exame = float(input("Digite a nota do exame: "))
         nova_media = (media + exame) / 2
-        if nova_media >= 5.0:
-            print("Aluno aprovado.")
-        else:
-            print("Aluno reprovado.")
+     if nova_media >= 5.0:
+        print("Aluno aprovado.")
+     else:
+        print("Aluno reprovado.")
         print(f"Media final: {nova_media:.1f}")
   
 
